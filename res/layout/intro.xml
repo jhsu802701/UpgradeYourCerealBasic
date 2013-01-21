@@ -1,0 +1,32 @@
+<!-- This is the file used to define the setup in the introduction screen.
+Note that the src/com.jasonhsu.upgradeyourcereal/Intro.java code 
+calls this file.-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:padding="10dp" 
+    >
+    
+     <!-- This TextView section defines a block of text.
+    The @string/hello_world refers to the string name hello_world in
+    the res/values/strings.xml file. -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world"
+        tools:context=".Intro" />
+    
+    <!--  This Button block defines the button at the bottom of the Intro 
+    screen.  The @string/text_button_continue refers to the string name 
+    text_button_continue in the res/values/strings.xml file. -->
+    <Button
+    android:id="@+id/button1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/text_button_continue" 
+    />
+
+</LinearLayout>

@@ -1,0 +1,34 @@
+<!-- This file contains the string names and their corresponding contents.
+Note that there is a second file (res/values/slogans.xml) that is
+dedicated to the providing the user the final results (alternative cereal
+and slogan). -->
+
+<resources>
+    <string name="app_name">Upgrade Your Cereal - Basic Edition</string>
+    <string name="hello_world">
+	Welcome to Upgrade Your Cereal!
+    When you enter your favorite cereal, this just-for-kicks app gives you a
+    superior alternative and a slogan for it.
+	</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_intro">Intro</string>
+        <string name="text_button_continue">Continue</string>
+    
+    <string name="text_instruct_select">
+        Please select a cereal.
+    </string>
+    
+    <string name="applejacks">Apple Jacks</string>
+    <string name="cocoapuffs">Cocoa Puffs</string>
+    <string name="frankenberry">Frankenberry</string>
+    <string name="frostedflakes">Frosted Flakes</string>
+    <string name="goldencrisp">Golden Crisp</string>
+    <string name="honeycombs">Honeycombs</string>
+    <string name="luckycharms">Lucky Charms</string>
+    <string name="specialk">Special K</string>
+    <string name="total">Total</string>
+    <string name="trix">Trix</string>
+    
+    <string name="text_button_submit">Submit</string>
+    
+</resources>

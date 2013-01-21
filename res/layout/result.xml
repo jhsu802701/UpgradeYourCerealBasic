@@ -1,0 +1,33 @@
+<!-- This file defines the popup window you see when you select a cereal. -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/red_med"
+    android:padding="40dp"    
+    >
+
+    <!-- This TextView shows you a better alternative to the cereal you
+    selected and a funny slogan. -->
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="TextView"
+        android:gravity="fill"
+        />
+
+    <!-- Clicking on this button closes the popup window and returns you
+    to the cereal selection screen. -->
+    <Button
+        android:id="@+id/buttonDismiss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Close" 
+        />
+
+</LinearLayout>

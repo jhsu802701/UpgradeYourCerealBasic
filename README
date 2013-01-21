@@ -1,0 +1,26 @@
+Application Name: Upgrade Your Cereal - Basic Edition
+Project Name: UpgradeYourCerealBasic
+Package Name: com.jasonhsu.upgradeyourcerealbasic
+Minimum Required SDK: Android 2.2
+Target SDK: Android 4.2
+Compile with: Android 4.2
+Theme: None
+
+Check Create Activity and Create Project in Workspace
+
+Create Activity Screen: check Create Activty, select BlankActivity
+
+Activity Name: Intro.java
+Layout name: intro.xml
+
+CRITICAL FILES:
+AndroidManifest.xml
+/src/com/jasonhsu/upgradeyourcerealbasic/Intro.java
+/src/com/jasonhsu/upgradeyourcerealbasic/SelectCereal.java
+/res/layout/intro.xml  
+/res/layout/result.xml  
+/res/layout/select.xml
+/res/values/color_list.xml  
+/res/values/slogans.xml  
+/res/values/strings.xml  
+/res/values/styles.xml

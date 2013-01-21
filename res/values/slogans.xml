@@ -1,0 +1,82 @@
+<!-- This is the file containing the string arrays for each of the possible
+results (alternative cereal and slogan). -->
+
+<resources>
+    
+        <string-array name="slogans_applejacks">
+        <item>
+            "O is for oat, B is for bran.  Rich and hearty, more OAT BRAN!"
+        </item>
+    </string-array>
+    <string-array name="slogans_cocoapuffs">
+        <item>
+            "YAHOO!  I'm cuckoo for OAT BRAN!  Cuckoo for OAT BRAN!  Cuckoo for OAT BRAN!"
+        </item>
+        <item>
+            "YAHOO!  I'm cuckoo for WHEAT CHEX!  Cuckoo for WHEAT CHEX!  Cuckoo for WHEAT CHEX!"
+        </item>
+        <item>
+            "Rich, rich, SHREDDED WHEAT.  Lots of fiber, SHREDDED WHEAT.  Munchy, crunchy, heart healthy.  YAHOO!  I'm cuckoo for SHREDDED WHEAT!  Cuckoo for SHREDDED WHEAT!  Cuckoo for SHREDDED WHEAT!"
+        </item>
+    </string-array>
+    <string-array name="slogans_frankenberry">
+        <item>
+            "SHREDDED WHEAT cereal is coming your way.  How 'bout some real food for breakfast today?"
+        </item>
+    </string-array>
+    <string-array name="slogans_frostedflakes">
+        <item>
+            "Show them you're a tiger.  Show them what you can do.  The taste of SHREDDED WHEAT with fruit brings out the tiger in you!"
+        </item>
+        <item>
+            "Show them you're a tiger.  Show them what you can do.  The taste of OAT BRAN with real fruit brings out the tiger in you!"
+        </item>
+        <item>
+            "The secret taste of SHREDDED WHEAT will make you say: They're GRRREAT!"
+        </item>
+    </string-array>
+    <string-array name="slogans_goldencrisp">
+        <item>
+            "Can't get enough of SHREDDED WHEAT with fruit, it's got the crunch with punch."
+        </item>
+        <item>
+            "It takes three bowls of TOTAL to equal the sugar content in one bowl of Super Golden Crisp."
+        </item>
+    </string-array>
+    <string-array name="slogans_honeycombs">
+        <item>
+            "SHREDDED WHEAT's big, yeah, yeah, yeah!  It's not small, no, no, no!  SHREDDED WHEAT's got, a big big bite!  Big, big taste, in a big, big bite!  SHREDDED WHEAT's got a big, big bite!  YEAHHHH!!!!"
+        </item>
+    </string-array>
+    <string-array name="slogans_luckycharms">
+        <item>
+            "They're after me SHREDDED WHEAT."
+        </item>
+        <item>
+            "SHREDDED WHEAT with fruit is magically delicious."
+        </item>
+        <item>
+            "OAT BRAN with real fruit is magically delicious."
+        </item>
+    </string-array>      
+    <string-array name="slogans_specialk">
+        <item>
+            "Thanks to OAT BRAN, you can't pinch an inch on me."
+        </item>
+    </string-array>      
+    <string-array name="slogans_total">
+        <item>
+            "You'll have to eat two bowls of Total to get the fiber nutrition in one bowl of SHREDDED WHEAT."
+        </item>
+    </string-array>  
+    <string-array name="slogans_trix">
+        <item>
+            "Silly rabbit, WHEAT CHEX is for kids."
+        </item>
+        <item>
+            "Silly rabbit, OAT BRAN is for kids."
+        </item>
+        
+    </string-array>
+    
+</resources>

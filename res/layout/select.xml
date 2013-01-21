@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This is the file used to define the setup in the cereal selection 
+screen.  Note that the 
+src/com.jasonhsu.upgradeyourcereal/SelectCereal.java code calls this 
+file.-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:padding="10dp"
+    >
+	
+    <!-- This TextView section provides instructions for the user. 
+    Note that this calls the text_instruct_select string in 
+    the res/values/strings.xml file.-->
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_instruct_select" 
+    />
+
+    <!-- This section defines the cereal choices for the user
+    to select.  Each Button section defines each of the buttons,
+    one for each cereal.  -->
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/buttonAppleJacks"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/applejacks" />
+
+            <Button
+                android:id="@+id/buttonCocoaPuffs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cocoapuffs" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/buttonFrankenberry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/frankenberry" />
+
+            <Button
+                android:id="@+id/buttonFrostedFlakes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/frostedflakes" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/buttonGoldenCrisp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/goldencrisp" />
+
+            <Button
+                android:id="@+id/buttonHoneycombs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/honeycombs" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/buttonLuckyCharms"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/luckycharms" />
+
+            <Button
+                android:id="@+id/buttonSpecialK"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/specialk" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/buttonTotal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/total" />
+
+            <Button
+                android:id="@+id/buttonTrix"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/trix" />
+
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>
